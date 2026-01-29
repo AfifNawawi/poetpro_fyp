@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Flutter / Dart
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+
+# Android / iOS / Desktop builds
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/Runner.xcworkspace/
+windows/build/
+linux/build/
+macos/build/
+
+# ML / AI artifacts
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+checkpoint-*/
+vector_db*/
+faiss*
+*.index
+
+# Datasets
+data/
+*.csv
+*.txt
+
+# Databases
+*.db
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+

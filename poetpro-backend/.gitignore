@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
+
+# Vector databases & embeddings
+*.pkl
+*.index
+data/vector_db_*
+data/vector_db_pantun/
+data/vector_db_syair/
+
+# Logs
+*.log
+
+# === ML Models & Checkpoints ===
+*.pt
+*.pth
+*.bin
+*.safetensors
+checkpoint-*/
+
+# === Vector Databases ===
+*.index
+*.pkl
+vector_db_*/
+
+# === Large Datasets ===
+data/raw/
+data/cleaned/
+data/final/
+*.csv
+*.txt
+
+# === Databases ===
+*.db
+
+# === Python cache ===
+__pycache__/
+*.pyc
+
+# === Secrets ===
+.env
